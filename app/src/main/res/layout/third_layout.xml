@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fff6ffbb"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="欢迎你^.^"
+        android:id="@+id/textView2"
+        android:singleLine="false"
+        android:textColor="#f4ff1939"
+        android:textSize="@dimen/notification_large_icon_width"
+        android:gravity="center"
+        android:layout_weight="0.50" />
+
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="97dp"
+        android:id="@+id/imageView2"
+        android:src="@android:drawable/btn_star_big_on"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="业务处理"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="hello_world">很高兴见到你^.^</string>
+    <string name="action_settings">Settings</string>
+</resources>
